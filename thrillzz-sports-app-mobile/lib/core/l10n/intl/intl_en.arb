@@ -1,0 +1,21 @@
+{
+  "@@locale": "en",
+  "appTitle": "Thrillzz Sports",
+  "browseBySport": "Browse by sport",
+  "leagues": "Leagues",
+  "games": "Games",
+  "noGamesFoundForLeague": "No games found for this league.",
+  "searchTitle": "Search",
+  "searchByNameLabel": "Search by name",
+  "searchByNameHint": "e.g. Lakers vs Celtics",
+  "searchAction": "Search",
+  "searchStartDateLabel": "Start date",
+  "searchEndDateLabel": "End date",
+  "searchDatePlaceholder": "Select date",
+  "searchResultsTitle": "Search results",
+  "gameDetailsTitle": "Game details",
+  "players": "Players",
+  "gameNotLoaded": "Game not loaded.",
+  "noGamesForLeague": "No games for league",
+  "noLeaguesAvailable": "No leagues available"
+}

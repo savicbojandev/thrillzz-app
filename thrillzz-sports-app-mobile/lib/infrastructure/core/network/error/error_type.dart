@@ -1,0 +1,15 @@
+enum ErrorType {
+  dioCancel,
+  unauthorized,
+  failedParsing,
+  timeout,
+  connectionError,
+  receiveTimeout,
+  notFound,
+  badRequest,
+  forbidden,
+  internalServerError,
+  sendTimeout,
+  unknown,
+  noCache,
+}

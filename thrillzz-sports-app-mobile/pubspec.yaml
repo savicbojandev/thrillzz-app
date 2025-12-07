@@ -1,0 +1,56 @@
+name: thrillzz_sports_app
+description: "Sports App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  flutter_screenutil: ^5.9.3
+  get_it: ^8.2.0
+  go_router: ^16.2.0
+  dio: ^5.9.0
+  intl: ^0.20.2
+  nested: ^1.0.0
+  freezed_annotation: ^2.4.4
+  multiple_result: ^5.1.0
+  collection: ^1.19.1
+  provider: ^6.1.5+1
+  json_annotation: ^4.9.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.4.6
+  flutter_gen_runner: ^5.3.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  freezed: ^2.3.4
+  json_serializable: ^6.8.0
+  very_good_analysis: ^10.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+flutter_gen:
+  output: lib/core/gen/
+  integrations:
+    flutter_svg: true
+
+flutter_intl:
+  enabled: true
+  main_locale: en
+  arb_dir: lib/core/l10n/intl
+  output_dir: lib/core/gen

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - lcov.info - core/l10n/app_localizations.dart</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="title">LCOV - code coverage report</td></tr>
+            <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+            <tr>
+              <td width="100%">
+                <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="10%" class="headerValue"><a href="../../index.html" title="Click to go to top-level">top level</a> - <a href="index.html" title="Click to go to directory core/l10n">core/l10n</a> - app_localizations.dart</td>
+            <td width="5%"></td>
+            <td width="5%"></td>
+            <td width="5%" class="headerCovTableHead">Coverage</td>
+            <td width="5%" class="headerCovTableHead" title="Covered + Uncovered code">Total</td>
+            <td width="5%" class="headerCovTableHead" title="Exercised code only">Hit</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">lcov.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntryLo">50.0&nbsp;%</td>
+            <td class="headerCovTableEntry">28</td>
+            <td class="headerCovTableEntry">14</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test Date:</td>
+            <td class="headerValue">2025-12-07 12:35:22</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntryHi">-</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">0</td>
+          </tr>
+                  <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+          </table>
+
+          <table cellpadding=0 cellspacing=0 border=0>
+            <tr>
+              <td><br></td>
+            </tr>
+            <tr>
+              <td>
+<pre class="sourceHeading">            Line data    Source code</pre>
+<pre class="source">
+<span id="L1"><span class="lineNum">       1</span>              : // Generated manually until flutter gen-l10n is run.</span>
+<span id="L2"><span class="lineNum">       2</span>              : import 'package:flutter/foundation.dart';</span>
+<span id="L3"><span class="lineNum">       3</span>              : import 'package:flutter/widgets.dart';</span>
+<span id="L4"><span class="lineNum">       4</span>              : </span>
+<span id="L5"><span class="lineNum">       5</span>              : class AppLocalizations {</span>
+<span id="L6"><span class="lineNum">       6</span> <span class="tlaGNC">           1 :   AppLocalizations(this.locale);</span></span>
+<span id="L7"><span class="lineNum">       7</span>              : </span>
+<span id="L8"><span class="lineNum">       8</span>              :   final Locale locale;</span>
+<span id="L9"><span class="lineNum">       9</span>              : </span>
+<span id="L10"><span class="lineNum">      10</span>              :   static const LocalizationsDelegate&lt;AppLocalizations&gt; delegate =</span>
+<span id="L11"><span class="lineNum">      11</span>              :       _AppLocalizationsDelegate();</span>
+<span id="L12"><span class="lineNum">      12</span>              : </span>
+<span id="L13"><span class="lineNum">      13</span>              :   static const List&lt;LocalizationsDelegate&lt;dynamic&gt;&gt; localizationsDelegates = [</span>
+<span id="L14"><span class="lineNum">      14</span>              :     delegate,</span>
+<span id="L15"><span class="lineNum">      15</span>              :   ];</span>
+<span id="L16"><span class="lineNum">      16</span>              : </span>
+<span id="L17"><span class="lineNum">      17</span>              :   static const List&lt;Locale&gt; supportedLocales = [Locale('en')];</span>
+<span id="L18"><span class="lineNum">      18</span>              : </span>
+<span id="L19"><span class="lineNum">      19</span> <span class="tlaGNC">           1 :   static AppLocalizations of(BuildContext context) =&gt;</span></span>
+<span id="L20"><span class="lineNum">      20</span> <span class="tlaGNC">           1 :       Localizations.of&lt;AppLocalizations&gt;(context, AppLocalizations)!;</span></span>
+<span id="L21"><span class="lineNum">      21</span>              : </span>
+<span id="L22"><span class="lineNum">      22</span> <span class="tlaGNC">           1 :   String get appTitle =&gt; 'Thrillzz Sports';</span></span>
+<span id="L23"><span class="lineNum">      23</span> <span class="tlaUNC">           0 :   String get browseBySport =&gt; 'Browse by sport';</span></span>
+<span id="L24"><span class="lineNum">      24</span> <span class="tlaUNC">           0 :   String get leagues =&gt; 'Leagues';</span></span>
+<span id="L25"><span class="lineNum">      25</span> <span class="tlaUNC">           0 :   String get games =&gt; 'Games';</span></span>
+<span id="L26"><span class="lineNum">      26</span> <span class="tlaUNC">           0 :   String get noGamesFoundForLeague =&gt; 'No games found for this league.';</span></span>
+<span id="L27"><span class="lineNum">      27</span> <span class="tlaUNC">           0 :   String get searchTitle =&gt; 'Search';</span></span>
+<span id="L28"><span class="lineNum">      28</span> <span class="tlaGNC">           1 :   String get searchByNameLabel =&gt; 'Search by name';</span></span>
+<span id="L29"><span class="lineNum">      29</span> <span class="tlaGNC">           1 :   String get searchByNameHint =&gt; 'e.g. Lakers vs Celtics';</span></span>
+<span id="L30"><span class="lineNum">      30</span> <span class="tlaUNC">           0 :   String get searchAction =&gt; 'Search';</span></span>
+<span id="L31"><span class="lineNum">      31</span> <span class="tlaGNC">           1 :   String get searchStartDateLabel =&gt; 'Start date';</span></span>
+<span id="L32"><span class="lineNum">      32</span> <span class="tlaGNC">           1 :   String get searchEndDateLabel =&gt; 'End date';</span></span>
+<span id="L33"><span class="lineNum">      33</span> <span class="tlaGNC">           1 :   String get searchDatePlaceholder =&gt; 'Select date';</span></span>
+<span id="L34"><span class="lineNum">      34</span> <span class="tlaUNC">           0 :   String get searchResultsTitle =&gt; 'Search results';</span></span>
+<span id="L35"><span class="lineNum">      35</span> <span class="tlaUNC">           0 :   String get gameDetailsTitle =&gt; 'Game details';</span></span>
+<span id="L36"><span class="lineNum">      36</span> <span class="tlaUNC">           0 :   String get players =&gt; 'Players';</span></span>
+<span id="L37"><span class="lineNum">      37</span> <span class="tlaUNC">           0 :   String get gameNotLoaded =&gt; 'Game not loaded.';</span></span>
+<span id="L38"><span class="lineNum">      38</span> <span class="tlaUNC">           0 :   String get noSportsAvailable =&gt; 'No sports available';</span></span>
+<span id="L39"><span class="lineNum">      39</span> <span class="tlaUNC">           0 :   String get noLeaguesAvailable =&gt; 'No leagues available';</span></span>
+<span id="L40"><span class="lineNum">      40</span> <span class="tlaUNC">           0 :   String get noGamesForLeague =&gt; 'No games found for this league.';</span></span>
+<span id="L41"><span class="lineNum">      41</span>              : }</span>
+<span id="L42"><span class="lineNum">      42</span>              : </span>
+<span id="L43"><span class="lineNum">      43</span>              : class _AppLocalizationsDelegate</span>
+<span id="L44"><span class="lineNum">      44</span>              :     extends LocalizationsDelegate&lt;AppLocalizations&gt; {</span>
+<span id="L45"><span class="lineNum">      45</span> <span class="tlaGNC">           1 :   const _AppLocalizationsDelegate();</span></span>
+<span id="L46"><span class="lineNum">      46</span>              : </span>
+<span id="L47"><span class="lineNum">      47</span> <span class="tlaGNC">           1 :   @override</span></span>
+<span id="L48"><span class="lineNum">      48</span> <span class="tlaGNC">           2 :   bool isSupported(Locale locale) =&gt; locale.languageCode == 'en';</span></span>
+<span id="L49"><span class="lineNum">      49</span>              : </span>
+<span id="L50"><span class="lineNum">      50</span> <span class="tlaGNC">           1 :   @override</span></span>
+<span id="L51"><span class="lineNum">      51</span>              :   Future&lt;AppLocalizations&gt; load(Locale locale) =&gt;</span>
+<span id="L52"><span class="lineNum">      52</span> <span class="tlaGNC">           2 :       SynchronousFuture&lt;AppLocalizations&gt;(AppLocalizations(locale));</span></span>
+<span id="L53"><span class="lineNum">      53</span>              : </span>
+<span id="L54"><span class="lineNum">      54</span> <span class="tlaUNC">           0 :   @override</span></span>
+<span id="L55"><span class="lineNum">      55</span>              :   bool shouldReload(_AppLocalizationsDelegate old) =&gt; false;</span>
+<span id="L56"><span class="lineNum">      56</span>              : }</span>
+        </pre>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+            <tr><td class="versionInfo">Generated by: <a href="https://github.com//linux-test-project/lcov" target="_parent">LCOV version 2.3.2-1</a></td></tr>
+          </table>
+          <br>
+
+</body>
+</html>
